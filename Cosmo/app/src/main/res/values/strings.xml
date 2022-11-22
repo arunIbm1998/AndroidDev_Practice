@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cosmo</string>
+    <string name="title_activity_login">Login</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="text">New here? <u> Signup </u></string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+</resources>

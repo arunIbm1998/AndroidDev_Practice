@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A10035"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm Second Fragment"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#d8e1e7"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins_medium"
+        android:text="First"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="false"
+        android:textColor="#dbe1e7"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/third"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Third"
+        android:layout_marginLeft="200dp"
+        android:textAllCaps="false"
+        android:textColor="#dbe1e7"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+</FrameLayout>
